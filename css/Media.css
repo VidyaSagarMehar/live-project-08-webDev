@@ -9,9 +9,9 @@
     }
     button.signin-btn{
         position: absolute;
-        top: 250px;
+        top: 150px;
         left: 0px;
-        padding: 10px 20px;
+        padding: 10px 10px;
         border-radius: 20px;
         border: 0;
         background: linear-gradient(to left,#E1A2B8,#9F2BC1);
@@ -28,13 +28,13 @@
         ;
     }
     div.nav-items{
-        flex-direction: column;
+        flex-direction: row;
         /* border: 2px solid blue; */
         width: 60vw;
         color: #5A20CB;
         justify-content: space-around;
-        margin-left: 200px;
-        margin-top: -52px;
+        margin-left: 0px;
+        margin-top: 25px;
         
     }
     .intro-img{
@@ -42,6 +42,10 @@
         margin-top: 150px;
         margin-left: -300px;
         width: 300px;
+    }
+    .vector-img{
+        display: none;
+    
     }
 
 }
